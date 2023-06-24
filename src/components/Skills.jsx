@@ -7,6 +7,7 @@ import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Java from '../assets/java-logo-1.png';
 import Mongo from '../assets/mongo.png';
+import Mysql from '../assets/mysql-ar21 (1).png';
 
 const Skills = () => {
   return (
@@ -39,8 +40,8 @@ const Skills = () => {
             <p className='my-4'>GITHUB</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-            <p className='my-4'>NODE JS</p>
+            <img className='w-20 mx-auto' src={Mysql} alt="HTML icon" />
+            <p className='my-4'>MYSQL</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
